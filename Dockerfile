@@ -5,3 +5,4 @@
 #FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint:v0.45.0
 #FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/sidecarlogresults:v0.45.0
 FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop:v0.45.0
+FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter:v0.45.0
