@@ -6,4 +6,5 @@
 #FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/sidecarlogresults:v0.45.0
 #FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop:v0.45.0
 #FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter:v0.45.0
-FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.45.0
+#FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.45.0
+FROM gcr.io/google.com/cloudsdktool/cloud-sdk:302.0.0-slim
