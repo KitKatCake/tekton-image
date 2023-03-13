@@ -3,4 +3,5 @@
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/webhook
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/controller
-FROm gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook
+#FROm gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook
+FROM gcr.io/knative-releases/knative.dev/serving/cmd/queue
