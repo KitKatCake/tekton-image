@@ -2,4 +2,5 @@
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/webhook
-FROM gcr.io/knative-releases/knative.dev/serving/cmd/controller
+#FROM gcr.io/knative-releases/knative.dev/serving/cmd/controller
+FROm gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook
