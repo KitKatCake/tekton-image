@@ -1,2 +1,3 @@
 #FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller:v0.52.0
-FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint:v0.52.0
+#FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint:v0.52.0
+FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop:v0.52.0
