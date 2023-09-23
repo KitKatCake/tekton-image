@@ -6,4 +6,5 @@
 #FROM cgr.dev/chainguard/busybox
 #FROM mcr.microsoft.com/powershell:nanoserver
 #FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/events:v0.52.0
-FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/resolvers:v0.52.0
+#FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/resolvers:v0.52.0
+FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.52.0
