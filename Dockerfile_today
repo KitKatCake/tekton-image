@@ -1,1 +1,2 @@
-FROM alpine
+#FROM alpine
+FROM docker.all-hands.dev/all-hands-ai/runtime:0.31-nikolaik
