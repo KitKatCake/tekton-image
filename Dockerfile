@@ -8,4 +8,5 @@
 #FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter:v0.45.0
 #FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.45.0
 #FROM gcr.io/google.com/cloudsdktool/cloud-sdk:302.0.0-slim
-FROM docker.io/nginx:1.16.1
+#FROM docker.io/nginx:1.16.1
+FROM nginx
