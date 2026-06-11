@@ -13,5 +13,5 @@
 #FROM ghcr.io/llm-d/llm-d-cuda:v0.3.1
 #FROM minio/minio:RELEASE.2025-09-07T16-13-09Z-cpuv1
 #FROM registry.k8s.io/gateway-api/echo-basic:v1.5.1
-FROM kostiscodefresh/summer-of-k8s-app:v1
-#FROM kostiscodefresh/summer-of-k8s-app:v2
+#FROM kostiscodefresh/summer-of-k8s-app:v1
+FROM kostiscodefresh/summer-of-k8s-app:v2
