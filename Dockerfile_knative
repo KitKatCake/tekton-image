@@ -5,4 +5,5 @@
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/controller
 #FROm gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/queue
-FROM gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:d479c6879b4e5429745f96026679e6267e7b5a8cfc7dc8e334a64d4241cd5c1a
+#FROM gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:d479c6879b4e5429745f96026679e6267e7b5a8cfc7dc8e334a64d4241cd5c1a
+FROM gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier@sha256:01abd2070ccf8680885c47990e42c05c09e30bc8595d9246f4dcd37f2220a2a2
