@@ -8,5 +8,5 @@
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:d479c6879b4e5429745f96026679e6267e7b5a8cfc7dc8e334a64d4241cd5c1a
 #FROM gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier@sha256:01abd2070ccf8680885c47990e42c05c09e30bc8595d9246f4dcd37f2220a2a2
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:986b7623548a759d9736e59512f1fceee7beb3cd5c39093b95d17d77f818308a
-#FROM gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:0fcd0d222ea7a8c6628136cd516e7ff1f4cab5a736445abdfd6a9ebc004b8dff
-FROM gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:9bf7db638f617e2d8086919cece028bb6b7598449039bc8eb4018cc599c324c4
+FROM gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:0fcd0d222ea7a8c6628136cd516e7ff1f4cab5a736445abdfd6a9ebc004b8dff
+#FROM gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:9bf7db638f617e2d8086919cece028bb6b7598449039bc8eb4018cc599c324c4
