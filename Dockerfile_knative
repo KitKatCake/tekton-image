@@ -18,4 +18,5 @@
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/requestreply@sha256:e8ed257ac9531472ee59912477481dc811973aeecad5680a900f0062fdf6ce94
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter@sha256:0c553761a4b6553186bce7e39a5cdb225093e428393c5c4ee0ae724d83169941
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/auth_proxy@sha256:4d771d0838a4cd759f0e4ef4c7182ddfe6fa752a9266b706255951a1602e964c
-FROM gcr.io/knative-releases/knative.dev/eventing/cmd/mtping@sha256:14aa2fec23011c08c3ed5a9e6db99b171f49a7744685a0a85ed9313dd168c045
+#FROM gcr.io/knative-releases/knative.dev/eventing/cmd/mtping@sha256:14aa2fec23011c08c3ed5a9e6db99b171f49a7744685a0a85ed9313dd168c045
+FROM gcr.io/knative-releases/knative.dev/eventing/cmd/appender
