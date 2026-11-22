@@ -14,4 +14,5 @@
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:acbd28666cc7eef7f9a3ed2495fb6d9e8fac1180b35a9f22246e3bb69c87a891
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/controller@sha256:2a411f7ce81ebd483071e2b85af99e9ee62a8e8fee049c32a0a52c9ce2819ec4
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/webhook@sha256:6537c9764d04372abdef88d576ee44bf718b83b55e5b07375710ea0e215633fe
-FROM gcr.io/knative-releases/knative.dev/eventing/cmd/jobsink@sha256:d3db25a74681dbc9b13f9e97648e4250a845b78215bcef406eb94d8ca40ebfa1
+#FROM gcr.io/knative-releases/knative.dev/eventing/cmd/jobsink@sha256:d3db25a74681dbc9b13f9e97648e4250a845b78215bcef406eb94d8ca40ebfa1
+FROM gcr.io/knative-releases/knative.dev/eventing/cmd/requestreply@sha256:e8ed257ac9531472ee59912477481dc811973aeecad5680a900f0062fdf6ce94
