@@ -21,4 +21,5 @@
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/mtping@sha256:14aa2fec23011c08c3ed5a9e6db99b171f49a7744685a0a85ed9313dd168c045
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/appender
 #FROM gcr.io/knative-releases/knative.dev/eventing/cmd/event_display
-FROM gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller@sha256:7939a26f4466246fc943790d451c878bb5d4fb57e19e86bb1a6bb734eba06aca
+#FROM gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller@sha256:7939a26f4466246fc943790d451c878bb5d4fb57e19e86bb1a6bb734eba06aca
+FROM gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher@sha256:77bf26982b9437a1d4203745d2379bd9c2d61154e48bb2c0ae7a7b59242ed0ea
