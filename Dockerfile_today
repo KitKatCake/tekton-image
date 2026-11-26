@@ -2,4 +2,5 @@
 #FROM docker.all-hands.dev/all-hands-ai/runtime:0.31-nikolaik
 #FROM docker.all-hands.dev/all-hands-ai/openhands:0.31
 #FROM registry.k8s.io/nfd/node-feature-discovery:v0.20.1
-FROM registry.k8s.io/kro/kro:v0.10.0
+#FROM registry.k8s.io/kro/kro:v0.10.0
+FROM registry.k8s.io/sig-storage/snapshot-controller:v8.6.0
